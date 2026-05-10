@@ -1,0 +1,16 @@
+
+algoritmo "custo do carro"
+var
+custoF, custoC, imposto : real
+
+inicio
+
+escreva("Me fale qual o valor de fabrica do seu carro: ")
+leia (custoF)
+
+imposto <- (custoF * 0.45)+ custoF
+custoC <- (imposto * 0.28) + imposto
+
+escreva ("O custo ao consumidor do carro é: R$", custoC)
+
+fimalgoritmo
